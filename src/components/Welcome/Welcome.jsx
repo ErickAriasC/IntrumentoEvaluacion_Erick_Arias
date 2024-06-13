@@ -1,11 +1,12 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 export const Welcome = ({ ficha }) => {
   return (
     <>
       <h1>instrumento de evaluación</h1>
       <h2>Ficha: {ficha} </h2>
-      <a className='into' href=''>Ingresar</a>
+      <NavLink to='/Finances'>Ingresar</NavLink>
     </>
   )
 }
